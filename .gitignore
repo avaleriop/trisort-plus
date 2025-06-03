@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python virtual environments
+.venv_py312/
+venv_py312/
+
+# CMake build directory
+build/
+
+# C/C++ artifacts
+*.o
+*.so
+*.dylib
+
+# Python bytecode
+__pycache__/
+
+# Benchmark outputs
+benchmark_results.csv
+benchmark_plot_final.png
+
+# Any editor or IDE files
+*.swp
+*.swo
+.idea/
+.vscode/
